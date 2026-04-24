@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); Set-Location \"C:\\\\Users\\\\gucio\\\\OneDrive\\\\Desktop\\\\ClaudeCodeTest\\\\dashboard\"; npx tsc --noEmit 2>&1)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(npm install *)"
+    ]
+  }
+}
